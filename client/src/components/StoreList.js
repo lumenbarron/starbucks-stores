@@ -51,7 +51,7 @@ export default class StoreList extends Component {
     });
     return (
       <div>
-        {/* <Header /> */}
+        <Header />
         <div className="cont-all-stores">
           <div className="row">
             {this.state.show ? (
