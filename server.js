@@ -13,7 +13,7 @@ const routes = require('./routes/api');
 require('dotenv').config()
 
 // Step 2
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/mern_youtube', {
+mongoose.connect(process.env.MONGODB_URI , {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
