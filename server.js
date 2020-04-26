@@ -8,7 +8,7 @@ const cors = require('cors');
 const app = express();
 const PORT = process.env.PORT || 5000; // Step 1
 
-const routes = require('./routes/api');
+const routes = require('./routes/store');
 
 require('dotenv').config()
 
@@ -36,7 +36,7 @@ if (process.env.NODE_ENV === 'production') {
 
 // HTTP request logger
 app.use(morgan('tiny'));
-app.use('/api', routes);
+app.use('/store', routes);
 
 
 
