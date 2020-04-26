@@ -1,0 +1,29 @@
+.logo-starbucks{
+    background: url("./images/starbucks-logo.png");
+    height: 4.5rem;
+    width: 12rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: .5rem;
+    margin-left: 2rem;
+}
+
+.text-nav {
+margin-right: 8rem;
+}
+
+.btn-add{
+    margin: 1rem;
+    margin-right: 4rem;
+}
+
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 425px) {
+    .btn-add{
+        margin-right: 1rem;
+    }
+  }
