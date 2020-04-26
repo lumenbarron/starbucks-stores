@@ -9,6 +9,8 @@ const PORT = process.env.PORT || 8080; // Step 1
 
 const routes = require('./routes/api');
 
+require('dotenv').config()
+
 // Step 2
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/mern_youtube', {
     useNewUrlParser: true,
